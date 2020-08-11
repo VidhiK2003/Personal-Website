@@ -5,11 +5,14 @@
 }
 body {
  background-color: #ffffe6; 
+  font-family: 'Cookie', cursive;
 }
 
 
 h1 {
-  color:003300;
+  color:#6699FF;
+  text-align:center
+  font-family: 'Cookie', cursive;
 }
 
 
