@@ -1,11 +1,15 @@
 /*TODO: Add a background color or image to your website*/
+*{
+  margin: 1px;
+  padding: 1px;
+}
 body {
- background-color: #967bb6; 
+ background-color: #ffffe6; 
 }
 
 
 h1 {
-  color: navy;
+  color:003300;
 }
 
 
@@ -26,7 +30,9 @@ h1 {
 
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
-
+nav {
+  colour: #99ccff;
+}
 
 
 
