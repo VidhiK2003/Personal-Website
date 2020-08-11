@@ -1,7 +1,7 @@
 /*TODO: Add a background color or image to your website*/
 *{
-  margin: 1px;
-  padding: 1px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -50,6 +50,14 @@ h3{
 nav{
   background-color:#76D7C4;
 }
+nav input[type=text], nav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
 li{
   list-style-type:none;
 }
