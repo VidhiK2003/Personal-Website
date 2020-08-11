@@ -31,7 +31,9 @@ h1 {
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 nav {
-  background-colour: #99ccff;
+  background-colour: #b3ffec;
+  display:flex:
+    justify-content:flex-end;
 }
 
 
