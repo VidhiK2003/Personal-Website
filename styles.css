@@ -1,7 +1,7 @@
 /*TODO: Add a background color or image to your website*/
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 1px;
+  padding: 1px;
 }
 
 body {
@@ -9,20 +9,22 @@ body {
 }
   
 .title{
-  color:#76D7C4;
+  color:white;
   text-align:center;
   font-family: 'Cookie', cursive;
-  top:50%;
 }
 .banner{
   background-image:url(https://cdn.glitch.com/d728b6b4-2898-4fdf-8298-098093a28c52%2Fpatrick-tomasso-Oaqk7qqNh_c-unsplash.jpg?v=1597170060594);
-  height: 150px;
+  height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 p{
+  font-family: 'Raleway', sans-serif;
+}
+h3{
   font-family: 'Raleway', sans-serif;
 }
 #about{
