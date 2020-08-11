@@ -4,17 +4,16 @@
   padding: 1px;
 }
 body {
- background-color: #ffffe6; 
+  background-color: #ffffe6; 
   font-family: 'Cookie', cursive;
 }
-
-
+  
 h1 {
   color:#6699FF;
   text-align:center
   font-family: 'Cookie', cursive;
 }
-
+  
 
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
@@ -37,6 +36,9 @@ nav {
   background-colour: #b3ffec;
   display:flex:
     justify-content:flex-end;
+}
+ul{
+  background-color:#76D7C4
 }
 
 
