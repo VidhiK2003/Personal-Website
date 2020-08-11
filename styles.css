@@ -1,19 +1,21 @@
 /*TODO: Add a background color or image to your website*/
 *{
-  margin: 1px;
-  padding: 1px;
+  margin: 0px;
+  padding: 0px;
 }
+
 body {
   background-color: #ffffe6; 
-  font-family: 'Cookie', cursive;
 }
   
 h1 {
-  color:#6699FF;
+  color:#76D7C4;
   text-align:center
   font-family: 'Cookie', cursive;
 }
-  
+p{
+  font-family: 'Raleway', sans-serif;
+}
 
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
@@ -32,13 +34,17 @@ h1 {
 
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
-nav {
-  background-colour: #b3ffec;
-  display:flex:
-    justify-content:flex-end;
-}
-ul{
+nav{
   background-color:#76D7C4
+}
+li{
+  list-style-type:none;
+}
+.container{
+  display:flex;
+    justify-content:flex-end;
+  
+}
 }
 
 
