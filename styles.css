@@ -78,4 +78,27 @@ li{
 }
 }
 
+.container .search-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+.container input[type=text] {
+  padding: 1px;
+  margin-top: 1px;
+  font-size: 17px;
+  border: none;
+}
+
+/* Style the button inside the input container */
+.container .search-container button {
+  float: right;
+  padding: 1px;
+  margin-top: 1px;
+  margin-right: 1px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
 /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
