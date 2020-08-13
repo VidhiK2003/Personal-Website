@@ -28,9 +28,10 @@ p{
 h3{
   font-family: 'Raleway', sans-serif;
   font-size:1.5em;
-
 }
-
+img{
+  border:1px;
+}
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
 
