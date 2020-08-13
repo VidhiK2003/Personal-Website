@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ffffe6; 
+  background-color: #FDEBD0; 
 }
   
 .title{
@@ -40,9 +40,12 @@ h3{
   font-size:1.5em;
 }
 img{
-   max-width: 25%;
+   max-width: 100%;
   height: auto;
   border-radius:5%;
+}
+.project{
+  max-width: 25%
 }
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
@@ -62,7 +65,8 @@ img{
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 nav{
-  background-color:#76D7C4;
+  background-color:#ABEBC6 
+;
 }
 li{
   list-style-type:none;
