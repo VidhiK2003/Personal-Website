@@ -1,7 +1,7 @@
 /*TODO: Add a background color or image to your website*/
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 1px;
+  padding: 1px;
 }
 
 body {
@@ -30,7 +30,9 @@ h3{
   font-size:1.5em;
 }
 img{
-  border:1px;
+   max-width: 25%;
+  height: auto;
+  border-radius:5%;
 }
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
