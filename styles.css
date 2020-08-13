@@ -1,7 +1,7 @@
 /*TODO: Add a background color or image to your website*/
 *{
-  margin: 1px;
-  padding: 1px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -17,11 +17,21 @@ body {
 .banner{
   background-image:url(https://cdn.glitch.com/d728b6b4-2898-4fdf-8298-098093a28c52%2Fpatrick-tomasso-Oaqk7qqNh_c-unsplash.jpg?v=1597170060594);
   height: 300px;
+  line-height: 300px;/*this makes it so the line the text is on is the same as the height of the image, its a nice trick that forces the text to the center*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
+.main {
+  display: flex;
+  justify-content: space-between; /*this pushes our nav bar to the right side of the screen */
+}
+.text {
+  padding: 50px;
+}
+
 p{
   font-family: 'Raleway', sans-serif;
 }
